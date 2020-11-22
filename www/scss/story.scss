@@ -1,0 +1,105 @@
+.story{
+	width: 100%;
+	color: #413d4b;
+	font-family: 'Roboto',sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	margin-top: 120px;
+}
+.Upper{
+	transition: 0.5s;
+}
+.st{
+	margin-top: 0;
+}
+.story__container {
+	padding: 67px 20px 79px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 980px;
+	display: flex;
+	justify-content: space-between;
+}
+.story__title {
+	color: #413d4b;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.story__inscription {
+	font-size: 14px;
+	color:grey;
+}
+.story__content {
+	width: 100%;
+	max-width: 556px;
+	padding: 0 15px;
+}
+.story__link {
+	padding: 9px 14px;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #00e0d0;
+	border: 1px solid #00e0d0;
+}
+.story__link:hover {
+	background: #04bbae;
+	color: white;
+	border-color: white;
+}
+.story__title{
+	text-align: center;
+}
+.story__list{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-bottom: 70px;
+	max-width: 1064px;
+	margin: 0 auto;
+}
+.story__item p{
+ padding-top: 80px;
+}
+.story__item {
+	color: white;
+	font-size: 16px;
+	margin-right: 10px;
+	text-transform: uppercase;
+}
+.story__item{
+	text-align: center;
+	height: 190px;
+	width: 190px;
+	
+}
+.story__item--shtrih {
+	background:linear-gradient(rgba(5, 27, 70, 0.486), rgba(2, 43, 53, 0.808)) , url('../img/shtrih.jpg') 50%;
+	background-size: 200px 190px;
+}
+.story__item--sphere {
+	background:linear-gradient(rgba(5, 27, 70, 0.486), rgba(2, 43, 53, 0.808)) , url('../img/sphere.jpg') 50%;
+	background-size: 200px 190px;
+}
+.story__item--cube {
+	background:linear-gradient(rgba(5, 27, 70, 0.486), rgba(2, 43, 53, 0.808)) , url('../img/cube.jpg') 20%;
+	background-size: 200px 190px;
+}
+.story__item--apple {
+	background:linear-gradient(rgba(5, 27, 70, 0.486), rgba(2, 43, 53, 0.808)) , url('../img/apple.jpg') 200%;
+	background-size: 200px 190px;
+}
+@media (max-width: 768px) {
+	.story__container{
+		padding: 67px 20px 79px;
+		margin: 0 auto;
+		flex-wrap: wrap;
+		max-width: 980px;
+		justify-content: space-between;
+	}
+	.story__image{
+		display: block;
+		margin: 0 auto;
+	}
+}
